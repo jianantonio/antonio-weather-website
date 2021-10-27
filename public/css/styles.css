@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 
-  background: linear-gradient(-45deg, #174d48, #547b8d, #447c80);
+  background: linear-gradient(-45deg, #91a8a6, #79a5a1, #95d3b9, #333333);
 }
 
 .main-content {
@@ -26,6 +26,7 @@ footer {
 header {
   margin-top: 16px;
   margin-bottom: 48px;
+  color: #cccccc;
 }
 
 h1 {
