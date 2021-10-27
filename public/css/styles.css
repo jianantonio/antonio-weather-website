@@ -8,6 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  background: linear-gradient(-45deg, #174d48, #547b8d, #447c80);
 }
 
 .main-content {
