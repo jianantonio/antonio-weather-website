@@ -15,7 +15,7 @@ const forecast = (lat, long, callback) => {
     } else {
       callback(
         undefined,
-        `The weather is ${body.current.weather_descriptions[0]}. It is currently ${body.current.temperature} degrees out. It feels like ${body.current.feelslike} degrees out.`
+        `Captured at ${body.current.observation_time}. The weather is ${body.current.weather_descriptions[0]}. With a temperature of ${body.current.temperature} degrees out but feels like ${body.current.feelslike} degrees out.`
       );
     }
   });
